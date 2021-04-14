@@ -1,0 +1,56 @@
+.icon::before {
+	width:25px;
+	height:25px;
+	display:inline-block;
+	background-size:contain;
+	background-repeat:no-repeat;
+	content:' ';
+}
+
+.icon.home::before {
+	background-image: url(../icon/cap.jpg);
+}
+
+.icon.home:hover::before {
+	background-image: url(../icon/icon_cap.jpg);
+}
+
+.icon.heroes::before {
+	background-image: url(../icon/iron.jpg);
+}
+
+.icon.heroes:hover::before {
+	background-image: url(../icon/icon_iron.jpg);
+}
+
+.icon.favorite::before {
+	background-image: url(../icon/thor.jpg);
+}
+
+.icon.favorite:hover::before {
+	background-image: url(../icon/icon_thor.jpg);
+}
+
+.icon.landing::before {
+	background-image: url(../icon/hulk.jpg);
+}
+
+.icon.landing:hover::before {
+	background-image: url(../icon/icon_hulk.jpg);
+}
+
+.icon.up:hover::before {
+	url(../icon/arrow11.svg);
+}
+
+.icon.puzzle::before {
+	background-image: url(../icon/15.jpg);
+}
+
+.icon.up::before {
+    background-image: url(../icon/arrow11.png);
+}
+
+
+
+
